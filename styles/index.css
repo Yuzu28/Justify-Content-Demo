@@ -8,13 +8,32 @@ html{
 
 body{
     height: 100vh;
+    background-color:aqua; 
+    color: purple;
 }
 
 .flex-start{
+    background-color: yellow;
+    border-radius: 15px;
     border: 10px solid blue;
     height: 70%;
     widows: 98%;
-    
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex-start-box{
+    background-color: bisque;
+    border-radius:15px; 
+    border: 10px solid #110040;
+    height: 60%;
+    width: 27%;
+}
+
+.flex-start.hidden{
+    display:none;
 }
 
 .flex-start-mode{
