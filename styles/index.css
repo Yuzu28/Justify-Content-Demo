@@ -1,0 +1,23 @@
+html{
+    box-sizing: border-box;
+}
+
+*,*::before *::after{
+    box-sizing: inherit;
+}
+
+body{
+    height: 100vh;
+}
+
+.flex-start{
+    border: 10px solid blue;
+    height: 70%;
+    widows: 98%;
+    
+}
+
+.flex-start-mode{
+    text-align:center;
+
+}
